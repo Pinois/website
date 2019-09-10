@@ -23,8 +23,10 @@ a:hover {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center;
+    text-align: center; */
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 .padded-content {
