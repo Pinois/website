@@ -16,6 +16,12 @@ a {
 	font-weight: 600;
 }
 
+b {
+	color: #2f2f2fe8;
+	color: inherit;
+	font-weight: 600;
+}
+
 a:hover {
 	color: #dfc686;
 }
