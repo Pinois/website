@@ -4,43 +4,71 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Loïc Lepinois</title>
 		<link href="./favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<style>
+			@import url('https://rsms.me/inter/inter-ui.css');
+			body {
+				font-family: 'Inter UI', Helvetica, sans-serif;
+				font-size: 18px;
+				color: #2f2f2fe8;
+			}
+			a {
+				text-decoration: none;
+				color: #2f2f2fe8;
+				box-shadow: inset 0px -7px 0 0 #ffcf54d2, 0px 2px 0 0 #ffcf54d2;
+				transition: 0.2s;
+			}
+			a:hover {
+				box-shadow: inset 0 -30px 0 0 #ffcf54d2, 0 2px 0 0 #ffcf54d2;
+			}
+
+			.parent {
+				display: grid;
+				grid-template-columns: auto;
+				grid-template-rows: 100vh;
+				place-items: center center;
+			}
+			.box {
+				text-align: center;
+				padding: 15vw;
+			}
+		</style>
 	</head>
 	<body>
-		<div class="center">
-			<section class="padded-content">
+		<div class="parent">
+			<div class="box">
 				<p>
-					My name is <b>Loïc Lepinois</b>, and I am a
-					<b>Front-end Engineer</b> from Belgium. If you’re in a hurry, here is
+					My name is <strong>Loïc Lepinois</strong>, and I am a
+					<strong>Software Engineer</strong> from Belgium. If you’re in a hurry, here is
 					<a href="./LoicLepinoisResume2019.pdf">my resume</a>.
 				</p>
 
 				<p>
-					I'm currently working in Madagascar, as <b>Front-end Lecturer</b> for
+					I'm currently working in Madagascar, as <strong>Front-end Lecturer</strong> for
 					<a href="https://www.onja.org">Onja</a>. Our mission is to teach 20 Malagasy
 					students everything they need to become web developers, in less than two years.
 					In 2019, I volunteered a few month for
 					<a href="https://passerellesnumeriques.org">Passerelles Numériques</a>
 					in Vietnam. From 2016 to 2019, I was lead
-					<b>Front-end Engineer</b> at <a href="https://www.skwarel.com">Skwarel</a>, a
-					Belgian startup based in Brussels.
+					<strong>Front-end Engineer</strong> at
+					<a href="https://www.skwarel.com">Skwarel</a>, a Belgian startup based in
+					Brussels.
 				</p>
 
 				<p>
-					I have studied Computer Science at <b>EPHEC</b>, and then at <b>UCL</b>. In
-					2013, I did my internship at
-					<a href="https://www.dourfestival.eu" target="blank">Dour Festival</a>. I make
-					electronic music under the alias of
-					<a href="https://www.soundcloud.com/mobuddy">Mobuddy</a>. I love
-					<a href="https://www.instagram.com/elpinois">photography</a>.
+					I have studied Computer Science at <strong>EPHEC</strong>, and then at
+					<strong>UCL</strong>. In 2013, I did my internship at
+					<a href="https://www.dourfestival.eu">Dour Festival</a>. I make electronic music
+					under the alias of <a href="https://www.soundcloud.com/mobuddy">Mobuddy</a>. I
+					love <a href="https://www.instagram.com/elpinois">photography</a>.
 				</p>
 
 				<p>
-					I'm really interested about <b>digital inclusion</b>, so if you want to talk,
-					get in touch via <a href="https://www.twitter.com/elpinois">Twitter</a> or
+					I'm really interested about <strong>digital inclusion</strong>, so if you want
+					to talk, get in touch via
+					<a href="https://www.twitter.com/elpinois">Twitter</a> or
 					<a href="https://linkedin.com/in/loic-lepinois/">Linkedin</a>.
 				</p>
-			</section>
+			</div>
 		</div>
 	</body>
 </html>
